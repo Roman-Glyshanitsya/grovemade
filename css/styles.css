@@ -30,3 +30,218 @@ img {
     display: block;
     max-width: 100%;
 }
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 25px 37px;
+}
+
+/* Header */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 25px;
+}
+
+.nav-link {
+    font-size: 13px;
+    line-height: 1.15;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #000000
+}
+
+/* Main */
+/* Hero */
+.hero-section {
+    max-width: 100%;
+    height: 504px;
+    margin: 0 auto;
+    background-color: #A0A0A0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-title {
+    font-size: 43px;
+    line-height: 1.07;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+
+.hero-text {
+    font-size: 15px;
+    line-height: 1.2;
+    letter-spacing: 0.8px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+
+.hero-link {
+    font-size: 13px;
+    line-height: 1.15;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* Design Inspires */
+.inspires-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.inspires-title {
+    font-size: 43px;
+    line-height: 1.35;
+    margin-top: 80px;
+    margin-bottom: 25px;
+    color: #000000;
+}
+
+.inspires-text {
+    font-size: 14px;
+    line-height: 1.71;
+    margin-bottom: 25px;
+    letter-spacing: 0.8px;
+}
+
+.inspires-link {
+    font-size: 13px;
+    line-height: 1.62;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    color: #000000;
+}
+
+.inspires-list {
+    display: flex;
+}
+
+.inspires-list-item {
+    text-align: center;
+}
+
+.inspires-list-item:not(:last-child) {
+    margin-right: 24px;
+}
+
+.inspires-list-img {
+    margin-bottom: 50px;
+}
+
+.inspires-list-title {
+    font-size: 27px;
+    line-height: 1.11;
+    margin-bottom: 25px;
+    color: #000000;
+}
+
+.inspires-list-link {
+    font-size: 13px;
+    line-height: 1.15;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+/* Featured Products */
+.products-section {
+    margin-bottom: 95px;
+}
+
+.products-title {
+    font-size: 33px;
+    line-height: 1.09;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+.products-text {
+    font-size: 15px;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 80px;
+    letter-spacing: 0.8px;
+}
+
+.products-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products-list-img {
+    margin-bottom: 20px;
+}
+
+.products-list-name {
+    font-size: 13px;
+    line-height: 1.62;
+    letter-spacing: 0.7px;
+}
+
+.products-list-price {
+    font-size: 12px;
+    line-height: 1.75;
+    letter-spacing: 0.7px;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    height: 468px;
+    background-color: #F9F9F9;
+}
+
+.footer .container {
+    display: flex;
+    padding-top: 75px;
+}
+
+.footer-list {
+    font-size: 22px;
+    line-height: 1.09;
+    color: #000000;
+}
+
+.footer-list-item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.footer-content {
+    max-width: 348px;
+    height: 200px;
+    margin-left: 15px;
+    border-bottom: 1px solid #000000;
+}
+
+.footer-title {
+    font-size: 22px;
+    line-height: 1.09;
+    margin-bottom: 25px;
+    color: #000000;
+}
+
+.footer-text {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.8px;
+}
