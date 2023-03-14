@@ -68,10 +68,18 @@ img {
     margin: 0 auto;
     background-color: #A0A0A0;
 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.hero-shop {
+    background-image: url("../images/hero/1.jpg");
 }
 
 .hero-title {
@@ -179,7 +187,10 @@ img {
     line-height: 1.2;
     text-align: center;
     margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
     letter-spacing: 0.8px;
+    max-width: 777px;
 }
 
 .products-list {
@@ -244,4 +255,57 @@ img {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.8px;
+}
+
+/* Hero Explore */
+.hero-explore {
+    background-image: url("../images/hero/2.jpg");
+    margin-bottom: 120px;
+}
+
+/* Made the hard way */
+.hard-img {
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+/* Make work meaningful */
+.images-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.images-list-item {
+    flex-basis: calc((100% - 125px) / 6);
+}
+
+/* Design Inspires Footer */
+.footer-section {
+    width: 1340px;
+    height: 404px;
+    margin: 0 auto;
+    background-color: #9AA8B1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 40px;
+}
+
+.footer-section-title {
+    font-weight: 400;
+        font-size: 43px;
+        line-height: 1.35;
+        color: #FFFFFF;
+}
+
+.footer-section-text {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.8px;
+        color: #FFFFFF;
 }
